@@ -1,0 +1,12 @@
+# Large data files — too big for GitHub
+data/online_retail_II.csv
+data/online_retail_clean.csv
+output/retail.db
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
