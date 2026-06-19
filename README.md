@@ -53,17 +53,19 @@ customer-segmentation/
 
 ---
 
-## How to Run
+## Business Recommendations
 
-1. Download the [Online Retail II dataset](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci) and place the CSV in `data/`
-2. Install dependencies:
-   ```
-   pip3 install pandas numpy matplotlib seaborn scikit-learn
-   ```
-3. Run the notebooks in order:
-   - `01_explore_and_clean.ipynb`
-   - `02_kmeans_clustering.ipynb`
-   - `03_sql_revenue_analysis.ipynb`
+**Champions (35 customers — $2.9M revenue)**
+Enroll in a VIP loyalty program with early access to new products and a dedicated account manager. These 35 customers are irreplaceable — churn here is disproportionately costly.
+
+**Loyal Customers (3,841 customers — $11.6M revenue)**
+The backbone of the business. Focus on increasing average order value through product bundles and cross-sell campaigns. A small uplift in spend per customer has outsized impact at this scale.
+
+**VIP / Wholesale (4 customers — $1.75M revenue)**
+Each account is worth ~$437K. Assign dedicated relationship managers and negotiate long-term contracts to lock in retention. Losing even one account represents a ~2.5% drop in total revenue.
+
+**Churned (1,998 customers — $1.53M before disengaging)**
+Launch a targeted win-back email campaign with a time-limited discount. Even reactivating 10% of this segment at historical spend rates would recover ~$150K in annual revenue.
 
 ---
 
